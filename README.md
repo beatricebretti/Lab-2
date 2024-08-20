@@ -4,3 +4,4 @@
 ```
 rails server
 ```
+- Go to the [Wiki](https://github.com/beatricebretti/Lab-2/wiki) to see more. 
