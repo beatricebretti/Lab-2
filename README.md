@@ -4,4 +4,5 @@
 ```
 rails server
 ```
-- Go to the [Wiki](https://github.com/beatricebretti/Lab-2/wiki) to see more. 
+# Lab-3
+- Go to the [Wiki](https://github.com/beatricebretti/Lab-2/wiki) to see the User Stories and more. 
