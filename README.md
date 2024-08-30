@@ -5,4 +5,7 @@
 rails server
 ```
 # Lab-3
-- Go to the [Wiki](https://github.com/beatricebretti/Lab-2/wiki) to see the User Stories and more. 
+- Go to the [Wiki](https://github.com/beatricebretti/Lab-2/wiki) to see the User Stories and more.
+
+# Lab-4
+- Created the 3 independent models (and tables) `User`, `Post`, `Comment`.
