@@ -9,3 +9,7 @@ rails server
 
 # Lab-4
 - Created the 3 independent models (and tables) `User`, `Post`, `Comment`.
+
+# Lab-5
+- Created associations between `Posts` and `Comments`.
+- Created `Index` and `Show` actions for the `Post`, so now they are available with their respective comments.
