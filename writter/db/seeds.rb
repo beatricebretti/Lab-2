@@ -91,48 +91,56 @@ posts = Post.create!([
   }
 ])
 
-
 # Comments
 comments = Comment.create!([
   { 
     content: 'This is so true, Elon! The advancements in AI are truly remarkable, and I can’t wait to see what the future holds.', 
-    author: 'john.doe@gmail.com' 
+    author: 'john.doe@gmail.com',
+    post_id: posts[0].id 
   },
   { 
     content: 'Absolutely, Jane. Climate change is a huge issue, and we all need to do our part to make a difference.', 
-    author: 'beatrice.valdes@gmail.com' 
+    author: 'beatrice.valdes@gmail.com',
+    post_id: posts[1].id 
   },
   { 
     content: 'Education is key to everything. It’s the foundation upon which we build our future.', 
-    author: 'thomas.johansen@gmail.com' 
+    author: 'thomas.johansen@gmail.com',
+    post_id: posts[2].id 
   },
   { 
     content: 'Couldn’t agree more, Thomas. There’s nothing better than getting out into nature and disconnecting from technology for a while.', 
-    author: 'mark.thompson@gmail.com' 
+    author: 'mark.thompson@gmail.com',
+    post_id: posts[3].id 
   },
   { 
     content: 'Art is such an important part of our culture. It allows us to see the world from different perspectives.', 
-    author: 'juan.perez@gmail.com' 
+    author: 'juan.perez@gmail.com',
+    post_id: posts[4].id 
   },
   { 
     content: 'A healthy diet really does make all the difference. It’s amazing how much better you feel when you eat right.', 
-    author: 'jane.smith@gmail.com' 
+    author: 'jane.smith@gmail.com',
+    post_id: posts[5].id 
   },
   { 
     content: 'Social media is definitely a double-edged sword. It can be great, but it can also be really harmful if we’re not careful.', 
-    author: 'will.smith@gmail.com' 
+    author: 'will.smith@gmail.com',
+    post_id: posts[6].id 
   },
   { 
     content: 'Renewable energy is the future, no doubt about it. We just need to keep pushing for more advancements.', 
-    author: 'peter.johnson@gmail.com' 
+    author: 'peter.johnson@gmail.com',
+    post_id: posts[7].id 
   },
   { 
     content: 'Remote work has been a game-changer for me. I love the flexibility, but it does come with its own set of challenges.', 
-    author: 'elon.musk@gmail.com' 
+    author: 'elon.musk@gmail.com',
+    post_id: posts[8].id 
   },
   { 
     content: 'I love trying out new food trends. It’s amazing how much the culinary world has to offer!', 
-    author: 'luis.bretti@gmail.com' 
+    author: 'luis.bretti@gmail.com',
+    post_id: posts[9].id
   }
 ])
-
